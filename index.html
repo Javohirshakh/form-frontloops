@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section>
+      <div class="container">
+        <div class="container-header">
+          <h2>Account settings</h2>
+          <button class="close" type="button"></button>
+        </div>
+        <form id="main" action="https://echo.htmlacademy.ru" method="GET">
+          <img src="img/avatar.jpg" alt="" class="form-avatar">
+          <div>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter your username" name="username" id="username" autocomplete="off">
+          </div>
+          <div class="double">
+            <div>
+              <label for="fname">First name</label>
+              <input type="text" placeholder="Enter your first name" name="fname" id="fname" autocomplete="off">
+            </div>
+            <div>
+              <label for="lname">Last name</label>
+              <input type="text" placeholder="Enter your last name" name="lname" id="lname" autocomplete="off">
+            </div>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your email" name="email" id="email" autocomplete="off">
+          </div>
+          <div>
+            <label for="bio">Bio</label>
+            <textarea name="bio" id="bio" placeholder="Tell us about yourself"></textarea>
+          </div>
+        </form><div class="buttons">
+          <button type="reset" form="main">Clear</button>   
+          <button type="submit" form="main">Send</button>          
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
